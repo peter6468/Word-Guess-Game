@@ -1,0 +1,47 @@
+body {
+    color: #92c6ea;
+}
+
+.background {
+    background-color: #639d9c;
+    background-image: url("../images/ninjas-37770_1280.png");
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+#new-game-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: #92c6ea;
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    color: #5f5f5e;
+    text-transform: uppercase;
+    letter-spacing:2 px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px #5f5f5e;
+}
+
+#new-game-button:hover {
+    box-shadow: 0 4 px #5f5f5e;
+    top: 2px;
+}
+
+#new-game-button:active {
+    box-shadow: 0 0 #5f5f5e;
+    top: 6px;
+}
+
+#placeholder-section {
+    background-color: #0483fb;
+}
+
+#placeholders {
+    letter-spacing: 6px;
+    font-size: 35px;
+}
