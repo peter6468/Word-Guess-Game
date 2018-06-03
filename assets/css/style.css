@@ -1,3 +1,6 @@
+
+
+
 body {
     color: #92c6ea;
 }
@@ -8,6 +11,10 @@ body {
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
+}
+
+#title {
+    color: #639d9c;
 }
 
 #new-game-button {
