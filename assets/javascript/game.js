@@ -1,5 +1,6 @@
 //in html DOM, the  ELEMENT OBJECT represents an HTML element, like P, DIV, A, TABLE or any other HTML element
 //grab reference to my dom elements
+console.log("u suck");
 var $newGameButton = document.getElementById('new-game-button');
 var $placeholders = document.getElementById('placeholders');
 var $guessedLetters = document.getElementById('guessed-letters');
@@ -65,7 +66,7 @@ function letterGuess(letter) {
     }
 }
 
-checkInCorrect(letter0)
+//checkInCorrect(letter0)
 function checkIncorrect(letter) {
 //check to see if letter didnt make it into our pickedWordPlaceHolder(therefore, incorrect guess)
 if (
